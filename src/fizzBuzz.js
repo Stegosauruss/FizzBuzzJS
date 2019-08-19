@@ -6,6 +6,9 @@ function fizzBuzz(number) {
   else if (number % 5 === 0)
     return 'buzz';
   else
-    return number;
-  
+    return number;  
+}
+
+for (var i = 1; i <= 100; i++) {
+  console.log(fizzBuzz(i));
 }

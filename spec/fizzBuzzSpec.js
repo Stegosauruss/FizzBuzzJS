@@ -1,4 +1,4 @@
-describe("fizzBuzz", function(){
+describe("FizzBuzz", function(){
 
   it("should return 1 when passed 1", function(){
     expect(fizzBuzz(1)).toEqual(1);
